@@ -18,7 +18,7 @@
     <preference name="Fullscreen" value="false" />
     <preference name="Orientation" value="default" />
 
-<!-- ------------iOS------------ -->
+<!-- iOS -->
 
     <!-- iOS specific configuration -->
     <preference name="ios-target" value="7" />
@@ -50,7 +50,7 @@
     <splash platform="ios" src="assets/splash-1024x748.png" width="1024" height="748" />
     <splash platform="ios" src="assets/splash-2048x1496.png" width="2048" height="1496" />
 
-<!-- ------------Android------------ -->
+<!-- Android -->
  
     <!-- Android specific configuration -->
     <preference name="DisallowOverscroll" value="false"/>
@@ -80,10 +80,10 @@
     <splash platform="android" src="assets/splash-hdpi.png" density="hdpi" width="480" height="640" />
     <splash platform="android" src="assets/splash-lxhdpi.png" density="xhdpi" width="720" height="960" />
 
-<!-- ------------Windows Phone 8------------ -->
+<!-- Windows Phone 8 -->
     
     <!-- Windows Phone 8 specific configuration -->
-    <preference name="windows-publisher-id" value="<PUBID>" />
+    <preference name="windows-publisher-id" value="PUBID" />
     <preference name="windows-publisher-display-name" value="appname" />
     
     <!-- Windows Phone 8 icons -->
@@ -94,7 +94,7 @@
     <!-- Windows Phone 8 splash screens -->
     <splash platform="wp8" src="assets/screen-portrait.jpg" />
     
-<!-- ------------Plugins------------ -->
+<!-- Plugins -->
 
     <!-- Standard Cordova Plugins -->
     <intelxdk:plugin intelxdk:name="Accelerometer" intelxdk:value="org.apache.cordova.device-motion" />

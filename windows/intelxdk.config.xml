@@ -19,7 +19,7 @@
     <preference name="Orientation" value="default" />
     
     <!-- Windows Phone 8 specific configuration -->
-    <preference name="windows-publisher-id" value="<PUBID>" />
+    <preference name="windows-publisher-id" value="PUBID" />
     <preference name="windows-publisher-display-name" value="appname" />
     
     <!-- Windows Phone 8 icons -->
