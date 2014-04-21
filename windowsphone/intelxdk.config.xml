@@ -18,16 +18,16 @@
     <preference name="Fullscreen" value="false" />
     <preference name="Orientation" value="default" />
     
-    <!-- Windows 8 specific configuration -->
+    <!-- Windows Phone 8 specific configuration -->
     <preference name="windows-publisher-id" value="PUBID" />
     <preference name="windows-publisher-display-name" value="appname" />
     
-    <!-- Windows 8 icons -->
-    <icon platform="windows8" src="assets/icon-48.png" width="48" height="48" />
-    <icon platform="windows8" src="assets/icon-62-tile.png" width="62" height="62" />
-    <icon platform="windows8" src="assets/icon-173-tile.png" width="173" height="173" />
+    <!-- Windows Phone 8 icons -->
+    <icon platform="wp8" src="assets/icon-48.png" width="48" height="48" />
+    <icon platform="wp8" src="assets/icon-62-tile.png" width="62" height="62" />
+    <icon platform="wp8" src="assets/icon-173-tile.png" width="173" height="173" />
     
-    <!-- Windows 8 splash screens -->
+    <!-- Windows Phone 8 splash screens -->
     <splash platform="wp8" src="assets/screen-portrait.jpg" />
     
     <!-- Standard Cordova Plugins -->
