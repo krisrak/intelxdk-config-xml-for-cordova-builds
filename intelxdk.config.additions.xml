@@ -1,0 +1,37 @@
+<!-- iOS specific configuration -->
+
+<preference name="Fullscreen" value="true" />
+<preference name="Orientation" value="landscape" />
+<preference name="DisallowOverscroll" value="true"/>
+<preference name="HideKeyboardFormAccessoryBar" value="true"/>
+<preference name="EnableViewportScale" value="true"/>
+<preference name="MediaPlaybackRequiresUserAction" value="true"/>
+<preference name="AllowInlineMediaPlayback" value="true"/>
+<preference name="BackupWebStorage" value="local"/>
+<preference name="TopActivityIndicator" value="white"/>
+<preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+<preference name="SuppressesIncrementalRendering" value="true"/>
+<preference name="GapBetweenPages" value="0"/>
+<preference name="PageLength" value="0"/>
+<preference name="PaginationBreakingMode" value="page"/>
+<preference name="PaginationMode" value="unpaginated"/>
+<preference name="UIWebViewDecelerationSpeed" value="fast" />
+
+
+<!-- Android specific configuration -->
+
+<preference name="Fullscreen" value="true" />
+<preference name="Orientation" value="landscape" />
+<preference name="DisallowOverscroll" value="true"/>
+<preference name="BackgroundColor" value="0xff0000ff"/>
+<preference name="KeepRunning" value="false"/>
+<preference name="LoadUrlTimeoutValue" value="10000"/>
+<preference name="SplashScreen" value="mySplash"/>
+<preference name="SplashScreenDelay" value="10000"/>
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+<preference name="LoadingDialog" value="My Title,My Message"/>
+<preference name="LoadingPageDialog" value="My Title,My Message"/>
+<preference name="ErrorUrl" value="myErrorPage.html"/>
+<preference name="ShowTitle" value="true"/>
+<preference name="LogLevel" value="VERBOSE"/>
+
